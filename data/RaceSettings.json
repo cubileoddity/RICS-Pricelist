@@ -158,7 +158,7 @@
   "MG_Baphomet": {
     "DisplayName": "Baphomet",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1850,
     "MinAge": 16,
     "MaxAge": 65,
@@ -234,7 +234,7 @@
   "MG_Catgirl": {
     "DisplayName": "Catgirl",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -310,7 +310,7 @@
   "MG_Centaur": {
     "DisplayName": "Centaur",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1750,
     "MinAge": 16,
     "MaxAge": 65,
@@ -382,7 +382,7 @@
   "MG_Cowgirl": {
     "DisplayName": "Cowgirl",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1750,
     "MinAge": 16,
     "MaxAge": 65,
@@ -454,7 +454,7 @@
   "MG_Dragon": {
     "DisplayName": "Dragon",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 2200,
     "MinAge": 16,
     "MaxAge": 65,
@@ -530,7 +530,7 @@
   "MG_ForestFairy": {
     "DisplayName": "ForestFairy",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1800,
     "MinAge": 16,
     "MaxAge": 65,
@@ -602,7 +602,7 @@
   "MG_Foxgirl": {
     "DisplayName": "Foxgirl",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -674,7 +674,7 @@
   "MG_Harpy": {
     "DisplayName": "Harpy",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1600,
     "MinAge": 16,
     "MaxAge": 65,
@@ -746,7 +746,7 @@
   "MG_IceFairy": {
     "DisplayName": "IceFairy",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1800,
     "MinAge": 16,
     "MaxAge": 65,
@@ -818,7 +818,7 @@
   "MG_Slime": {
     "DisplayName": "Slime",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1800,
     "MinAge": 16,
     "MaxAge": 65,
@@ -890,7 +890,7 @@
   "MG_Thrumbogirl": {
     "DisplayName": "Thrumbogirl",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 2200,
     "MinAge": 16,
     "MaxAge": 65,
@@ -962,7 +962,7 @@
   "MG_Wolfgirl": {
     "DisplayName": "Wolfgirl",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1034,7 +1034,7 @@
   "Arachne": {
     "DisplayName": "arachne",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1750,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1106,7 +1106,7 @@
   "Milian_Race": {
     "DisplayName": "Milian",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 2500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1178,7 +1178,7 @@
   "Milira_Race": {
     "DisplayName": "Milira",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 5500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1254,7 +1254,7 @@
   "Alien_Moyo": {
     "DisplayName": "Moyo",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 2500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1326,7 +1326,7 @@
   "Yuran_Race": {
     "DisplayName": "Yuran",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1200,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1398,7 +1398,7 @@
   "Yuran_Race_Miko": {
     "DisplayName": "Yuran Miko",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 2800,
     "MinAge": 16,
     "MaxAge": 65,
@@ -1470,7 +1470,7 @@
   "Yuran_Race_Miko_BlackSnake": {
     "DisplayName": "Yuran BlackSnake",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 2800,
     "MinAge": 16,
     "MaxAge": 65,
