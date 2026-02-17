@@ -17,15 +17,11 @@ class RICSStore {
         this.init();
     }
 
-async init() {
-    try {
+    async init() {
         await this.loadAllData();
         this.renderAllTabs();
         this.setupEventListeners();
-    } catch (error) {
-        console.error('Init failed:', error);
     }
-}
 
     async loadAllData() {
         try {
@@ -100,6 +96,7 @@ async init() {
     processItemsData(itemsObject) {
         return Object.entries(itemsObject)
             .map(([key, itemData]) => {
+                // Use the structure from your sample
                 return {
                     defName: itemData.DefName || key,
                     name: itemData.CustomName || itemData.DefName || key,
@@ -111,16 +108,14 @@ async init() {
                     isUsable: itemData.IsUsable || false,
                     isEquippable: itemData.IsEquippable || false,
                     isWearable: itemData.IsWearable || false,
-                    enabled: itemData.Enabled !== false,
-                    modActive: itemData.modactive || false  // ADD THIS
+                    enabled: itemData.Enabled !== false
                 };
             })
             .filter(item => {
-                // Only include if enabled AND at least one usage type is true AND mod is active
-                return (item.enabled || item.isUsable || item.isEquippable || item.isWearable) && 
-                       item.price > 0 && 
-                       item.modActive === true;
-            });
+                // Only include if enabled AND at least one usage type is true
+                return (item.enabled || item.isUsable || item.isEquippable || item.isWearable);
+            })
+            .filter(item => item.price > 0); // Only items with price > 0
     }
 
     processEventsData(eventsObject) {
@@ -132,16 +127,10 @@ async init() {
                     baseCost: eventData.BaseCost || 0,
                     karmaType: eventData.KarmaType || 'None',
                     modSource: eventData.ModSource || 'Unknown',
-                    modActive: eventData.modactive || false,  // ADD THIS
                     enabled: eventData.Enabled !== false
                 };
             })
-            .filter(event => {
-                // Fixed: Added missing closing brackets
-                return event.enabled && 
-                       event.baseCost > 0 && 
-                       event.modActive === true;
-            });  // <-- Was missing this closing bracket
+            .filter(event => event.enabled && event.baseCost > 0);
     }
 
 
@@ -159,19 +148,14 @@ async init() {
                     addPrice: traitData.AddPrice || 0,
                     removePrice: traitData.RemovePrice || 0,
                     bypassLimit: traitData.BypassLimit || false,
-                    modSource: traitData.ModSource || 'Unknown',
-                    modActive: traitData.modactive || false  // ADD THIS
+                    modSource: traitData.ModSource || 'Unknown'
                 };
             })
             .filter(trait => {
-                // Only include if:
-                // 1. At least one operation is allowed AND
-                // 2. At least one price > 0 AND
-                // 3. Mod is active (modActive = true)
-                return (trait.canAdd || trait.canRemove) && 
-                       (trait.addPrice > 0 || trait.removePrice > 0) &&
-                       trait.modActive === true;
-            });
+                // Only include if at least one operation is allowed
+                return trait.canAdd || trait.canRemove;
+            })
+            .filter(trait => trait.addPrice > 0 || trait.removePrice > 0); // Only traits with prices
     }
 
     processWeatherData(weatherObject) {
@@ -184,16 +168,10 @@ async init() {
                     baseCost: weatherData.BaseCost || 0,
                     karmaType: weatherData.KarmaType || 'None',
                     modSource: weatherData.ModSource || 'Unknown',
-                    modActive: weatherData.modactive || false,  // ADD THIS
                     enabled: weatherData.Enabled !== false
                 };
             })
-            .filter(weather => {
-                // Fixed: Changed 'event' to 'weather' and added missing brackets
-                return weather.enabled && 
-                       weather.baseCost > 0 && 
-                       weather.modActive === true;
-            });  // <-- Was missing this closing bracket
+            .filter(weather => weather.enabled && weather.baseCost > 0);
     }
 
     processTraitDescription(description) {
@@ -309,11 +287,12 @@ processRacesData(racesObject) {
             <tr>
                 <td>
                     <div class="item-name">${this.escapeHtml(item.name)}</div>
-                    <span class="metadata">
-                        ${this.escapeHtml(item.defName)}
-                        <br>From ${this.escapeHtml(item.mod)}
-                        ${this.getUsageTypes(item)}
-                    </span>
+                        <span class="metadata">
+                            ${this.escapeHtml(item.defName)}
+                            <br>From ${this.escapeHtml(this.getModDisplayName(item.mod))}
+                            <br>Usage: !buy ${this.escapeHtml(item.name)} or !buy ${this.escapeHtml(item.defName)}
+                            ${this.getUsageTypes(item)}
+                        </span>
                 </td>
                 <td class="no-wrap">
                     <strong>${item.price}</strong>
@@ -321,7 +300,6 @@ processRacesData(racesObject) {
                 </td>
                 <td>${this.escapeHtml(item.category)}</td>
                 <td class="no-wrap">${item.quantityLimit}</td>
-                <td>${item.limitMode || 'N/A'}</td>
             </tr>
         `).join('');
     }
@@ -637,6 +615,11 @@ processRacesData(racesObject) {
         // Get the HTML back, which will have proper escaping for text content
         // but preserve the span tags we inserted
         return tempDiv.innerHTML;
+    }
+
+    getModDisplayName(mod) {
+        if (mod === 'Core') return 'RimWorld';
+        return mod || 'Unknown';
     }
 
     loadSampleData() {
