@@ -142,15 +142,13 @@
     "Degree": 0,
     "Description": "{PAWN_nameDef} likes to fight up close and personal. {PAWN_possessive} accuracy is greatly increased in melee combat, but {PAWN_pronoun}'ll be very unhappy if asked to carry a ranged weapon.",
     "Stats": [
-      "+4 Melee hit chance",
-      "+0.25 Melee critical chance",
-      "+0.25 Melee parry chance"
+      "+4 Melee hit chance"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1725,
-    "RemovePrice": 2875,
+    "AddPrice": 1650,
+    "RemovePrice": 2750,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -395,13 +393,13 @@
     "Degree": 0,
     "Description": "{PAWN_nameDef} has remarkable kinesthetic intelligence. {PAWN_pronoun} seems to dance around danger with preternatural grace.",
     "Stats": [
-      "+0.5 Melee dodge chance"
+      "+15 Melee dodge chance"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 225,
-    "RemovePrice": 375,
+    "AddPrice": 2400,
+    "RemovePrice": 4000,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -1152,13 +1150,14 @@
     "Degree": 1,
     "Description": "[PAWN_name] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy.",
     "Stats": [
-      "+25.0% Aiming time"
+      "+25.0% Aiming time",
+      "+5 Shooting accuracy"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 288,
-    "RemovePrice": 481,
+    "AddPrice": 2163,
+    "RemovePrice": 3606,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -1173,13 +1172,14 @@
     "Degree": -1,
     "Description": "Pew! Pew! Pew! [PAWN_name] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately.",
     "Stats": [
-      "-25.0% Aiming time"
+      "-50.0% Aiming time",
+      "-5 Shooting accuracy"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 86,
-    "RemovePrice": 721,
+    "AddPrice": 677,
+    "RemovePrice": 5643,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -3094,7 +3094,7 @@
     "Degree": 0,
     "Description": "{PAWN_nameDef} is trained to handle and operate heavy weaponry with precision.",
     "Stats": [
-      "+0.15 Weapon handling",
+      "+0.15 Shooting accuracy",
       "-20.0% Aiming time"
     ],
     "Conflicts": [],
@@ -3257,7 +3257,7 @@
     "Description": "{PAWN_nameDef} has faced countless battles and emerged stronger, with enhanced combat skills and resilience.",
     "Stats": [
       "+0.15 Melee hit chance",
-      "+0.15 Weapon handling",
+      "+0.15 Shooting accuracy",
       "+0.1 Pain shock threshold"
     ],
     "Conflicts": [],
@@ -3376,7 +3376,7 @@
     "Stats": [
       "+0.05 Global work speed",
       "+0.1 Social impact",
-      "+0.05 Weapon handling"
+      "+0.05 Shooting accuracy"
     ],
     "Conflicts": [],
     "CanAdd": true,
@@ -3399,7 +3399,7 @@
     "Stats": [
       "+0.1 Global work speed",
       "+0.15 Social impact",
-      "+0.1 Weapon handling"
+      "+0.1 Shooting accuracy"
     ],
     "Conflicts": [],
     "CanAdd": true,
@@ -3422,7 +3422,7 @@
     "Stats": [
       "+0.15 Global work speed",
       "+0.2 Social impact",
-      "+0.15 Weapon handling"
+      "+0.15 Shooting accuracy"
     ],
     "Conflicts": [],
     "CanAdd": true,
@@ -3584,7 +3584,7 @@
     "Degree": 1,
     "Description": "{PAWN_nameDef} is a competent marksman, with good accuracy and a steady aim.",
     "Stats": [
-      "+0.1 Weapon handling",
+      "+0.1 Shooting accuracy",
       "-10.0% Aiming time"
     ],
     "Conflicts": [],
@@ -3606,7 +3606,7 @@
     "Degree": 2,
     "Description": "{PAWN_nameDef} is a skilled marksman, with excellent accuracy and a quick aim.",
     "Stats": [
-      "+0.15 Weapon handling",
+      "+0.15 Shooting accuracy",
       "-20.0% Aiming time"
     ],
     "Conflicts": [],
@@ -3628,7 +3628,7 @@
     "Degree": 3,
     "Description": "{PAWN_nameDef} is an expert marksman, with superb accuracy and an exceptionally quick aim.",
     "Stats": [
-      "+0.2 Weapon handling",
+      "+0.2 Shooting accuracy",
       "-30.0% Aiming time"
     ],
     "Conflicts": [],

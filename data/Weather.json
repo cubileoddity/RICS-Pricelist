@@ -502,5 +502,17 @@
     "ModSource": "Alpha Biomes",
     "modactive": true,
     "Version": 1
+  },
+  "AnomalyWeather": {
+    "DefName": "AnomalyWeather",
+    "Label": "darkness",
+    "Description": null,
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Anomaly Research Asteroid",
+    "modactive": true,
+    "Version": 1
   }
 }
