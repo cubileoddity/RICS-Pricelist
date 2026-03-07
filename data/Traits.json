@@ -3818,5 +3818,43 @@
     "ModSource": "Astra Militarum Imperial Guard Core Mod v2.61",
     "modactive": true,
     "Version": 1
+  },
+  "HAR_Xenophobia_1": {
+    "DefName": "HAR_Xenophobia",
+    "Name": "Xenophobe",
+    "Degree": 1,
+    "Description": "[PAWN_name] hates and distrusts xenos. They see them as little more than animals.",
+    "Stats": [],
+    "Conflicts": [],
+    "CanAdd": true,
+    "CanRemove": true,
+    "AddPrice": 194,
+    "RemovePrice": 324,
+    "BypassLimit": false,
+    "CustomName": false,
+    "KarmaTypeForAdding": null,
+    "KarmaTypeForRemoving": null,
+    "ModSource": "Humanoid Alien Races",
+    "modactive": true,
+    "Version": 1
+  },
+  "HAR_Xenophobia_-1": {
+    "DefName": "HAR_Xenophobia",
+    "Name": "Xenophile",
+    "Degree": -1,
+    "Description": "[PAWN_name] thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+    "Stats": [],
+    "Conflicts": [],
+    "CanAdd": true,
+    "CanRemove": true,
+    "AddPrice": 194,
+    "RemovePrice": 324,
+    "BypassLimit": false,
+    "CustomName": false,
+    "KarmaTypeForAdding": null,
+    "KarmaTypeForRemoving": null,
+    "ModSource": "Humanoid Alien Races",
+    "modactive": true,
+    "Version": 1
   }
 }

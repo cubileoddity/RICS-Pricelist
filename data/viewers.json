@@ -1,10 +1,10 @@
 {
-  "total": 42,
+  "total": 48,
   "viewers": [
     {
       "username": "cubile_oddity",
       "karma": 200,
-      "coins": 10111095,
+      "coins": 10042245,
       "isBanned": false,
       "platformIds": {
         "twitch": "487101349"
@@ -65,7 +65,7 @@
     {
       "username": "velixfy",
       "karma": 200,
-      "coins": 10587,
+      "coins": 4295,
       "isBanned": false,
       "platformIds": {
         "twitch": "417854711"
@@ -368,6 +368,56 @@
       "platformIds": {
         "twitch": "893206057"
       }
+    },
+    {
+      "username": "sineddsloth",
+      "karma": 162,
+      "coins": 1608,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "175317437"
+      }
+    },
+    {
+      "username": "niwibo",
+      "karma": 170,
+      "coins": 5839,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1071424517"
+      }
+    },
+    {
+      "username": "blankcoredevil_bcd",
+      "karma": 200,
+      "coins": 4094,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "179980498"
+      }
+    },
+    {
+      "username": "twitch:179980498",
+      "karma": 100,
+      "coins": 2040,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "itohek_y",
+      "karma": 100,
+      "coins": 1880,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1454516077"
+      }
+    },
+    {
+      "username": "twitch:417854711",
+      "karma": 100,
+      "coins": 1800,
+      "isBanned": false,
+      "platformIds": {}
     }
   ]
 }
