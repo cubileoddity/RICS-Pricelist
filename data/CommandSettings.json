@@ -645,7 +645,7 @@
   },
   "raid": {
     "Enabled": true,
-    "CooldownSeconds": 5,
+    "CooldownSeconds": 3,
     "Cost": 0,
     "SupportsCost": false,
     "PermissionLevel": "everyone",

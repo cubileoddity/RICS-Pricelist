@@ -451,7 +451,8 @@
       "Gremlin": 2187.5,
       "VRE_Archon": 1750.0,
       "VRE_Insector": 1750.0,
-      "sanguophageFanatic": 5687.5
+      "sanguophageFanatic": 5687.5,
+      "ArchoGenes_Archinite": 1750.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -484,7 +485,8 @@
       "Gremlin": true,
       "VRE_Archon": true,
       "VRE_Insector": true,
-      "sanguophageFanatic": true
+      "sanguophageFanatic": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "AstarteAdaptusCore": {

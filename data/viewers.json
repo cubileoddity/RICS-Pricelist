@@ -1,10 +1,10 @@
 {
-  "total": 46,
+  "total": 50,
   "viewers": [
     {
       "username": "cubile_oddity",
       "karma": 200,
-      "coins": 10044775,
+      "coins": 10045415,
       "isBanned": false,
       "platformIds": {
         "twitch": "487101349"
@@ -58,7 +58,7 @@
     {
       "username": "velixfy",
       "karma": 200,
-      "coins": 24725,
+      "coins": 2967,
       "isBanned": false,
       "platformIds": {
         "twitch": "417854711"
@@ -166,7 +166,7 @@
     {
       "username": "bigtomindahouse",
       "karma": 133,
-      "coins": 14198,
+      "coins": 15939,
       "isBanned": false,
       "platformIds": {
         "twitch": "861806689"
@@ -337,7 +337,7 @@
     {
       "username": "sineddsloth",
       "karma": 162,
-      "coins": 1608,
+      "coins": 3094,
       "isBanned": false,
       "platformIds": {
         "twitch": "175317437"
@@ -345,8 +345,8 @@
     },
     {
       "username": "niwibo",
-      "karma": 146,
-      "coins": 2313,
+      "karma": 173,
+      "coins": 773,
       "isBanned": false,
       "platformIds": {
         "twitch": "1071424517"
@@ -354,8 +354,8 @@
     },
     {
       "username": "blankcoredevil_bcd",
-      "karma": 200,
-      "coins": 26763,
+      "karma": 164,
+      "coins": 13116,
       "isBanned": false,
       "platformIds": {
         "twitch": "179980498"
@@ -413,6 +413,42 @@
       "isBanned": false,
       "platformIds": {
         "twitch": "210714816"
+      }
+    },
+    {
+      "username": "lovesmart96797",
+      "karma": 100,
+      "coins": 1480,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1458394882"
+      }
+    },
+    {
+      "username": "welcomingairfljl4",
+      "karma": 100,
+      "coins": 1400,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1458529509"
+      }
+    },
+    {
+      "username": "vlinceutt",
+      "karma": 100,
+      "coins": 1400,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1458155748"
+      }
+    },
+    {
+      "username": "hu_bu_7467",
+      "karma": 100,
+      "coins": 1320,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1459879384"
       }
     }
   ]
