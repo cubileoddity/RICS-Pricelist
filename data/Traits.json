@@ -120,14 +120,13 @@
     "Description": "{PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric.",
     "Stats": [
       "+75.0% Global learning factor",
-      "+0.12 Mental break threshold",
-      "-0.75 Sanity loss multiplier"
+      "+0.12 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 449,
+    "RemovePrice": 748,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -590,14 +589,12 @@
     "Name": "Tortured artist",
     "Degree": 0,
     "Description": "{PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
-    "Stats": [
-      "+0.25 Sanity loss multiplier"
-    ],
+    "Stats": [],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 150,
+    "RemovePrice": 250,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -848,14 +845,13 @@
     "Degree": 2,
     "Description": "[PAWN_name]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before.",
     "Stats": [
-      "-0.18 Mental break threshold",
-      "-0.5 Sanity loss multiplier"
+      "-0.18 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 80,
+    "RemovePrice": 667,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -870,14 +866,13 @@
     "Degree": 1,
     "Description": "[PAWN_name] is mentally tough and won't break down under stresses that would crack most people.",
     "Stats": [
-      "-0.09 Mental break threshold",
-      "-0.25 Sanity loss multiplier"
+      "-0.09 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 62,
+    "RemovePrice": 521,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -892,14 +887,13 @@
     "Degree": -1,
     "Description": "[PAWN_name] tends to crack under pressure.",
     "Stats": [
-      "+0.08 Mental break threshold",
-      "-0.25 Sanity gain multiplier"
+      "+0.08 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 207,
+    "RemovePrice": 345,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -914,14 +908,13 @@
     "Degree": -2,
     "Description": "[PAWN_name] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation.",
     "Stats": [
-      "+0.15 Mental break threshold",
-      "-0.5 Sanity gain multiplier"
+      "+0.15 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 262,
+    "RemovePrice": 437,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -937,14 +930,13 @@
     "Description": "[PAWN_name] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective].",
     "Stats": [
       "+0.2 Global work speed",
-      "+0.08 Mental break threshold",
-      "+0.15 Sanity loss multiplier"
+      "+0.08 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 282,
+    "RemovePrice": 470,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -960,14 +952,13 @@
     "Description": "[PAWN_name] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective].",
     "Stats": [
       "+0.4 Global work speed",
-      "+0.14 Mental break threshold",
-      "+0.3 Sanity multiplier"
+      "+0.14 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 411,
+    "RemovePrice": 685,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -1833,14 +1824,12 @@
     "Name": "Absent-minded",
     "Degree": 0,
     "Description": "{PAWN_nameDef} tends to let {PAWN_possessive} mind drift, even in the middle of work. {PAWN_pronoun} may sometimes stop tasks at random.",
-    "Stats": [
-      "+0.1 Sanity multiplier"
-    ],
+    "Stats": [],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 150,
+    "RemovePrice": 250,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -1854,14 +1843,12 @@
     "Name": "Eccentric",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has a screw loose, but it comes with a sharper scientific mind.",
-    "Stats": [
-      "+0.4 Sanity loss multiplier"
-    ],
+    "Stats": [],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 150,
+    "RemovePrice": 250,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -1894,14 +1881,12 @@
     "Name": "Coward",
     "Degree": 0,
     "Description": "{PAWN_nameDef}'s instincts lean heavily toward cowardice. In danger, {PAWN_pronoun} will often hide or run before standing to fight.",
-    "Stats": [
-      "+0.05 Sanity loss multiplier"
-    ],
+    "Stats": [],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 150,
+    "RemovePrice": 250,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -1917,14 +1902,13 @@
     "Description": "{PAWN_nameDef} has stronger mental and physical fortitude than most. {PAWN_pronoun} can endure pain more readily, and is slower to break under harsh conditions.",
     "Stats": [
       "-0.2 Mental break threshold",
-      "+0.2 Pain shock threshold",
-      "-0.1 Sanity loss multiplier"
+      "+0.2 Pain shock threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 225,
+    "RemovePrice": 375,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -2325,14 +2309,12 @@
     "Name": "Anxious",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is naturally anxious, especially in social situations. {PAWN_pronoun} avoids gatherings and sometimes retreats to {PAWN_possessive} room to cope.",
-    "Stats": [
-      "-0.25 Sanity gain multiplier"
-    ],
+    "Stats": [],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 150,
+    "RemovePrice": 250,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -2442,14 +2424,13 @@
     "Degree": 0,
     "Description": "{PAWN_nameDef} has a sharp, logical mind. {PAWN_pronoun} researches faster than most, and {PAWN_possessive} rational outlook makes {PAWN_objective} less prone to mental breaks.",
     "Stats": [
-      "+0.2 Mental break threshold",
-      "+0.25 Sanity multiplier"
+      "+0.2 Mental break threshold"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 180,
+    "RemovePrice": 300,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -2521,14 +2502,13 @@
     "Degree": 0,
     "Description": "{PAWN_nameDef} hides a twisted obsession. {PAWN_pronoun} treats organ harvesting as a dark experiment and takes pleasure in it. Harvesting makes {PAWN_objective} happy, but going too long without fuels growing unrest.",
     "Stats": [
-      "+20.0% Surgery success chance factor",
-      "+0.5 Sanity loss multiplier"
+      "+20.0% Surgery success chance factor"
     ],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 180,
+    "RemovePrice": 300,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,
@@ -2639,14 +2619,12 @@
     "Name": "Insomniac",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is never fully asleep or awake. {PAWN_pronoun} lurches along in a slow, shambler-like state, and only sleeps once every few days.",
-    "Stats": [
-      "+0.25 Sanity loss multiplier"
-    ],
+    "Stats": [],
     "Conflicts": [],
     "CanAdd": true,
     "CanRemove": true,
-    "AddPrice": 1000,
-    "RemovePrice": 1500,
+    "AddPrice": 150,
+    "RemovePrice": 250,
     "BypassLimit": false,
     "CustomName": false,
     "KarmaTypeForAdding": null,

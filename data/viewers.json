@@ -1,10 +1,10 @@
 {
-  "total": 50,
+  "total": 59,
   "viewers": [
     {
       "username": "cubile_oddity",
       "karma": 200,
-      "coins": 10045415,
+      "coins": 10046055,
       "isBanned": false,
       "platformIds": {
         "twitch": "487101349"
@@ -58,7 +58,7 @@
     {
       "username": "velixfy",
       "karma": 200,
-      "coins": 2967,
+      "coins": 36078,
       "isBanned": false,
       "platformIds": {
         "twitch": "417854711"
@@ -265,7 +265,7 @@
     {
       "username": "captolamia",
       "karma": 100,
-      "coins": 1560,
+      "coins": 2040,
       "isBanned": false,
       "platformIds": {
         "twitch": "58513264"
@@ -354,8 +354,8 @@
     },
     {
       "username": "blankcoredevil_bcd",
-      "karma": 164,
-      "coins": 13116,
+      "karma": 200,
+      "coins": 68731,
       "isBanned": false,
       "platformIds": {
         "twitch": "179980498"
@@ -450,6 +450,79 @@
       "platformIds": {
         "twitch": "1459879384"
       }
+    },
+    {
+      "username": "lenzarng",
+      "karma": 100,
+      "coins": 3231,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "97321737"
+      }
+    },
+    {
+      "username": "drxlukas",
+      "karma": 100,
+      "coins": 1480,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "40008842"
+      }
+    },
+    {
+      "username": "twitch:97321737",
+      "karma": 100,
+      "coins": 1560,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "felity2",
+      "karma": 100,
+      "coins": 1560,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1463730735"
+      }
+    },
+    {
+      "username": "davister_39",
+      "karma": 100,
+      "coins": 1480,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1465065274"
+      }
+    },
+    {
+      "username": "arionequus",
+      "karma": 104,
+      "coins": 783,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "39337837"
+      }
+    },
+    {
+      "username": "twitch:179980498",
+      "karma": 100,
+      "coins": 1240,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "twitch:39337837",
+      "karma": 100,
+      "coins": 1240,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "twitch:417854711",
+      "karma": 100,
+      "coins": 1240,
+      "isBanned": false,
+      "platformIds": {}
     }
   ]
 }

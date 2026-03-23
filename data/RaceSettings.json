@@ -492,7 +492,7 @@
   "AstarteAdaptusCore": {
     "DisplayName": "AstarteAdaptusCore",
     "Enabled": false,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 1750,
     "MinAge": 16,
     "MaxAge": 65,
@@ -568,7 +568,7 @@
   "AstarteSpaceMarine": {
     "DisplayName": "Astarte Space Marine",
     "Enabled": true,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 17500,
     "MinAge": 16,
     "MaxAge": 65,
@@ -644,7 +644,7 @@
   "AdaptusCustodes": {
     "DisplayName": "Adeptus Custodes",
     "Enabled": false,
-    "ModActive": true,
+    "ModActive": false,
     "BasePrice": 50750,
     "MinAge": 16,
     "MaxAge": 65,
