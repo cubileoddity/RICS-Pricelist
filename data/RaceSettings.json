@@ -1,7 +1,7 @@
 {
   "Human": {
     "DisplayName": "human",
-    "Enabled": true,
+    "Enabled": false,
     "ModActive": true,
     "BasePrice": 1750,
     "MinAge": 16,
@@ -43,7 +43,8 @@
       "VRE_Strigoi": 1750.0,
       "VRE_Wolfman": 1750.0,
       "VREH_Uhlan": 1750.0,
-      "VRESaurids_Saurid": 1750.0
+      "VRESaurids_Saurid": 1750.0,
+      "ArchoGenes_Archinite": 1750.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -74,7 +75,8 @@
       "VRE_Strigoi": true,
       "VRE_Wolfman": true,
       "VREH_Uhlan": true,
-      "VRESaurids_Saurid": true
+      "VRESaurids_Saurid": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "OG_Abhuman_Beastman": {
@@ -161,7 +163,7 @@
   },
   "OG_Human_Mechanicus": {
     "DisplayName": "human (Mechanicus)",
-    "Enabled": true,
+    "Enabled": false,
     "ModActive": true,
     "BasePrice": 1750,
     "MinAge": 16,
@@ -205,7 +207,8 @@
       "Gremlin": 2187.5,
       "VRE_Archon": 1750.0,
       "VRE_Insector": 1750.0,
-      "sanguophageFanatic": 5687.5
+      "sanguophageFanatic": 5687.5,
+      "ArchoGenes_Archinite": 1750.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -238,12 +241,13 @@
       "Gremlin": true,
       "VRE_Archon": true,
       "VRE_Insector": true,
-      "sanguophageFanatic": true
+      "sanguophageFanatic": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "OG_Abhuman_Ogryn": {
     "DisplayName": "ogryn",
-    "Enabled": true,
+    "Enabled": false,
     "ModActive": true,
     "BasePrice": 2500,
     "MinAge": 16,
@@ -287,7 +291,8 @@
       "Gremlin": 3125.0,
       "VRE_Archon": 2500.0,
       "VRE_Insector": 2500.0,
-      "sanguophageFanatic": 8125.0
+      "sanguophageFanatic": 8125.0,
+      "ArchoGenes_Archinite": 2500.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -320,12 +325,13 @@
       "Gremlin": true,
       "VRE_Archon": true,
       "VRE_Insector": true,
-      "sanguophageFanatic": true
+      "sanguophageFanatic": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "OG_Abhuman_Ratlin": {
     "DisplayName": "ratling",
-    "Enabled": true,
+    "Enabled": false,
     "ModActive": true,
     "BasePrice": 1750,
     "MinAge": 16,
@@ -369,7 +375,8 @@
       "Gremlin": 2187.5,
       "VRE_Archon": 1750.0,
       "VRE_Insector": 1750.0,
-      "sanguophageFanatic": 5687.5
+      "sanguophageFanatic": 5687.5,
+      "ArchoGenes_Archinite": 1750.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -402,12 +409,13 @@
       "Gremlin": true,
       "VRE_Archon": true,
       "VRE_Insector": true,
-      "sanguophageFanatic": true
+      "sanguophageFanatic": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "OG_Alien_Tau": {
     "DisplayName": "Tau",
-    "Enabled": false,
+    "Enabled": true,
     "ModActive": true,
     "BasePrice": 1750,
     "MinAge": 16,
@@ -912,7 +920,8 @@
       "VRESaurids_Saurid": 2000.0,
       "VRE_Archon": 2000.0,
       "Gremlin": 2500.0,
-      "VRE_Insector": 2000.0
+      "VRE_Insector": 2000.0,
+      "ArchoGenes_Archinite": 2000.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -942,7 +951,8 @@
       "VRESaurids_Saurid": true,
       "VRE_Archon": true,
       "Gremlin": true,
-      "VRE_Insector": true
+      "VRE_Insector": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "OG_Alien_Grot": {
@@ -1099,12 +1109,12 @@
   },
   "OG_Alien_Kroot": {
     "DisplayName": "Kroot",
-    "Enabled": false,
+    "Enabled": true,
     "ModActive": true,
     "BasePrice": 2000,
     "MinAge": 16,
     "MaxAge": 65,
-    "AllowCustomXenotypes": true,
+    "AllowCustomXenotypes": false,
     "DefaultXenotype": "Baseliner",
     "PreferredPawnKindDefName": null,
     "AllowedGenders": {
@@ -1140,7 +1150,8 @@
       "VRESaurids_Saurid": 2000.0,
       "VRE_Archon": 2000.0,
       "Gremlin": 2500.0,
-      "VRE_Insector": 2000.0
+      "VRE_Insector": 2000.0,
+      "ArchoGenes_Archinite": 2000.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -1170,17 +1181,18 @@
       "VRESaurids_Saurid": true,
       "VRE_Archon": true,
       "Gremlin": true,
-      "VRE_Insector": true
+      "VRE_Insector": true,
+      "ArchoGenes_Archinite": true
     }
   },
   "OG_Alien_Vespid": {
     "DisplayName": "Vespid",
-    "Enabled": false,
+    "Enabled": true,
     "ModActive": true,
     "BasePrice": 2000,
     "MinAge": 16,
     "MaxAge": 65,
-    "AllowCustomXenotypes": true,
+    "AllowCustomXenotypes": false,
     "DefaultXenotype": "Baseliner",
     "PreferredPawnKindDefName": null,
     "AllowedGenders": {
@@ -1216,7 +1228,8 @@
       "VRESaurids_Saurid": 2000.0,
       "VRE_Archon": 2000.0,
       "Gremlin": 2500.0,
-      "VRE_Insector": 2000.0
+      "VRE_Insector": 2000.0,
+      "ArchoGenes_Archinite": 2000.0
     },
     "EnabledXenotypes": {
       "Baseliner": true,
@@ -1246,7 +1259,8 @@
       "VRESaurids_Saurid": true,
       "VRE_Archon": true,
       "Gremlin": true,
-      "VRE_Insector": true
+      "VRE_Insector": true,
+      "ArchoGenes_Archinite": true
     }
   }
 }
